@@ -7,10 +7,24 @@ function sobBoaNoticia(nota){
 sobBoaNoticia (8.1)
 sobBoaNoticia (6.1)
 
-function seForVerdade (valor){
+function seForVerdadeEuFalo (valor){
     if(valor){
         console.log('É verdade ... ' + valor)
     }
+    else{
+        console.log("Não é vdd... " + valor)
+    }
 }
 
-seForVerdade(!!1)
+seForVerdadeEuFalo()
+seForVerdadeEuFalo(null)
+seForVerdadeEuFalo(undefined)
+seForVerdadeEuFalo(NaN)
+seForVerdadeEuFalo('')
+seForVerdadeEuFalo(-1)
+seForVerdadeEuFalo(' ')
+seForVerdadeEuFalo('?')
+seForVerdadeEuFalo([])
+seForVerdadeEuFalo([1,2])
+seForVerdadeEuFalo({})
+seForVerdadeEuFalo({oi: "noob"})
