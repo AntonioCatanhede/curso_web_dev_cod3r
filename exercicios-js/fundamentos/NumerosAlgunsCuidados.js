@@ -3,7 +3,7 @@ console.log(7/0) // retorna o tipo 'Infinity
 
  //divisao de numero numa string
 console.log("10"/2) // da certo
-console.log("10.2"/2) // da certo
+console.log("10.22222"/2) // da certo
 
 console.log("10,2"/2) // imprime NaN (Not a Number)
 
@@ -13,8 +13,11 @@ console.log('3' + 2)
 // Imprime NaN; nao imprime a string 2 vezes
 console.log("Show!" *2) 
 
-console.log(0.1  +0.7)// nao da 0.8
+console.log(0.1 + 0.7)// nao da 0.8
+console.log((0.1 + 0.7).toFixed(1))// da 0.8
 
 
 // console.log(10.toString()) nao funciona
+console.log((10).toString())
 console.log((10.545).toFixed(2))
+console.log((10.545).toString(2))

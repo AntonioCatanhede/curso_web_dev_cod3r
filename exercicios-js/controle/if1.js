@@ -11,9 +11,6 @@ function seForVerdadeEuFalo (valor){
     if(valor){
         console.log('É verdade ... ' + valor)
     }
-    else{
-        console.log("Não é vdd... " + valor)
-    }
 }
 
 seForVerdadeEuFalo()

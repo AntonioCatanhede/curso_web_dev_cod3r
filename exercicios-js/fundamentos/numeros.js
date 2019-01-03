@@ -22,3 +22,5 @@ console.log(media.toString(2))//converte pra binario
 console.log(typeof media) // tipo number
 console.log(typeof Number) // é uma funcao
 
+
+
